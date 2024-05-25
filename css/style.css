@@ -1,0 +1,44 @@
+body {
+  background-color: #1f1f1f;
+  color: #d1d1d1;
+}
+div#container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 10vw;
+}
+
+button {
+  width: 110px;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0px 10px;
+  color: black;
+  background-color: #2f5f5f;
+  border: 0px solid black;
+  transition: 0.2s;
+}
+
+button:hover {
+  scale: 1.05;
+  color: #d1d1d1;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px #1fffff;
+  transition: 0.2s;
+}
+
+button:active {
+  scale: 0.95;
+  transition: 0.2s;
+}
+
+#answer {
+  font-size: 2em;
+}

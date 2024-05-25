@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basic Math Functions</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <label for="firstNumber">First number:</label>
+        <input type="number" name="firstNumber" id="firstNumber" value="0" />
+      </div>
+      <div>
+        <label for="secondNumber">Second number:</label>
+        <input type="number" name="secondNumber" id="secondNumber" value="0" />
+      </div>
+      <div>
+        <button type="button" onclick="{handleButtonClick(add)}">Add</button>
+        <button type="button" onclick="{handleButtonClick(multiply)}">
+          Multiply
+        </button>
+        <button type="button" onclick="{handleButtonClick(square)}">
+          Square
+        </button>
+        <button type="button" onclick="{handleButtonClick(add_squares)}">
+          Add Squares
+        </button>
+      </div>
+      <p id="answer"></p>
+    </div>
+  </body>
+</html>
